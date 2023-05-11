@@ -1,0 +1,43 @@
+:root {
+    --blue: #531cb3;
+}
+
+html {
+    @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,500;0,600;1,400;1,700&display=swap');
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-link {
+    margin-right: 20px;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.nav-link.cta {
+    color: white;
+    background-color: var(--blue);
+}
