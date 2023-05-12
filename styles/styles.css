@@ -7,6 +7,10 @@ html {
     font-family: 'Instrument Sans', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     padding-bottom: 10px;
     border-bottom: 1px solid black;
@@ -40,4 +44,24 @@ nav {
 .nav-link.cta {
     color: white;
     background-color: var(--blue);
+}
+
+.timeline-event {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-event-inner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.event-info {
+    font-size: 32px;
+    margin: 0;
 }
